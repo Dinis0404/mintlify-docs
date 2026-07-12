@@ -54,7 +54,13 @@
           }
         ],
         "pages": [
-          "file"
+          "file",
+          {
+            "group": "group",
+            "pages": [
+              "file-1"
+            ]
+          }
         ]
       }
     ]
