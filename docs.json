@@ -62,12 +62,11 @@
             ]
           },
           {
-            "group": "玩法介紹",
-            "pages": []
-          },
-          {
-            "group": "挖土",
-            "pages": []
+            "group": "挖掘",
+            "pages": [
+              "file",
+              "file-1"
+            ]
           }
         ]
       }
