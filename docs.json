@@ -32,6 +32,12 @@
         "groups": [
           {
             "group": "關於泥土商店",
+            "pages": [
+              "file"
+            ]
+          },
+          {
+            "group": "關於泥土商店",
             "icon": "contact-card",
             "pages": []
           },
