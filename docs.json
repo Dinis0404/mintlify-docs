@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "almond",
-  "name": "DirtShop SMP",
+  "name": "DirtShop",
   "colors": {
     "primary": "#ef7025",
     "light": "#eec9bc",
@@ -16,7 +16,7 @@
     "links": [
       {
         "label": "Discord",
-        "href": "https://discord.gg/dirtshop"
+        "href": "https://discord.gg/2PPjzwrmKq"
       }
     ],
     "primary": {
@@ -64,10 +64,5 @@
         ]
       }
     ]
-  },
-  "footer": {
-    "socials": {
-      "discord": "https://discord.gg/dirtshop"
-    }
   }
 }
