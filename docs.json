@@ -33,11 +33,12 @@
           {
             "group": "關於泥土商店",
             "pages": [
-              "introduction",
+              "",
               "getting-started/joining",
               "getting-started/rules",
               "getting-started/first-steps"
-            ]
+            ],
+            "icon": "contact-card"
           },
           {
             "group": "Gameplay",
