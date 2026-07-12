@@ -58,7 +58,7 @@
             "group": "關於泥土商店",
             "pages": [
               "1-1",
-              "1-2"
+              "file-5"
             ],
             "icon": "id-card"
           },
@@ -89,7 +89,6 @@
             "group": "小游戲",
             "pages": [
               "file-2",
-              "untitled-page",
               "file-3",
               "file-4"
             ]
@@ -97,7 +96,7 @@
           {
             "group": "養成",
             "pages": [
-              "file-5"
+              "file-6"
             ]
           }
         ],
