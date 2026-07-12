@@ -28,7 +28,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Player Guide",
+        "tab": "泥土商店百科",
         "groups": [
           {
             "group": "關於泥土商店",
@@ -72,28 +72,8 @@
               "community/reporting"
             ]
           }
-        ]
-      },
-      {
-        "tab": "Staff & Admin",
-        "groups": [
-          {
-            "group": "Staff Info",
-            "pages": [
-              "staff/roles",
-              "staff/moderation",
-              "staff/applying"
-            ]
-          },
-          {
-            "group": "Server Config",
-            "pages": [
-              "admin/plugins",
-              "admin/permissions",
-              "admin/world-settings"
-            ]
-          }
-        ]
+        ],
+        "icon": "book"
       }
     ]
   },
