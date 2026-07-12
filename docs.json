@@ -96,7 +96,9 @@
           },
           {
             "group": "養成",
-            "pages": []
+            "pages": [
+              "file-5"
+            ]
           }
         ],
         "icon": "book"
