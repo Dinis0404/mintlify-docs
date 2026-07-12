@@ -79,11 +79,15 @@
           },
           {
             "group": "釣魚",
-            "pages": []
+            "pages": [
+              "file-7"
+            ]
           },
           {
             "group": "狩獵",
-            "pages": []
+            "pages": [
+              "file-8"
+            ]
           },
           {
             "group": "小游戲",
