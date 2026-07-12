@@ -1,0 +1,83 @@
+---
+title: "Setting Up and Using Player Shops on DirtShop SMP"
+sidebarTitle: "Shops"
+description: "Create and manage chest shops to buy and sell items on DirtShop SMP. Learn how to set up a shop sign, set prices, and attract customers."
+---
+
+Commerce is one of the most rewarding parts of DirtShop SMP. The server gives you everything you need to run a thriving business — from fixed-price server shops to fully customizable player chest shops and a community market with dedicated stalls. Whether you're looking to offload excess farm produce or build a proper storefront, this guide walks you through every option available.
+
+---
+
+## Server Shop
+
+The quickest way to sell items on DirtShop SMP is through the **server shop**, accessible at `/warp shop`.
+
+- The server shop offers **fixed prices** for a wide range of items — no haggling, no waiting for a buyer.
+- It's a reliable baseline for selling common resources like crops, ores, and mob drops.
+- Prices at the server shop are set by the server and do not fluctuate. If you can sell the same item to a player shop for more, do that instead.
+- You can also **buy** certain items from the server shop at fixed prices, which is useful when you need something in a hurry.
+
+---
+
+## Player Chest Shops
+
+Player chest shops let you sell items directly to other players at prices you control. Once set up, your shop runs passively — players can buy and sell from it even while you're offline.
+
+<Steps>
+  <Step title="Place a chest">
+    Find a location for your shop — either at your base, in a dedicated shop building, or in a rented plot at `/warp market`. Place a standard chest where you want the shop to be.
+  </Step>
+  <Step title="Place a sign on the chest">
+    Right-click or place a sign directly on the front face of the chest (or on a block adjacent to it, depending on the plugin). This sign will define your shop's item, price, and type.
+  </Step>
+  <Step title="Fill in Line 1 — your username">
+    On the first line of the sign, type your in-game username. Some shop plugins allow you to leave this blank and will fill it in automatically. Check with staff or in-game instructions if you're unsure.
+  </Step>
+  <Step title="Fill in Line 2 — quantity">
+    On the second line, enter the quantity of items per transaction. For example, type `10` to sell items in stacks of 10 at a time.
+  </Step>
+  <Step title="Fill in Line 3 — buy and sell prices">
+    On the third line, set your pricing using the format `B <buy price> : S <sell price>`. For example:
+    - `B 100 : S 50` means players can **buy** the item from you for 100 coins, or **sell** the item to you for 50 coins.
+    - Set only a buy price (`B 100`) if you only want to sell, not buy.
+    - Set only a sell price (`S 50`) if you only want to buy items from players.
+  </Step>
+  <Step title="Fill in Line 4 — item name">
+    On the fourth line, enter the item's in-game ID or name in all caps. For example: `DIAMOND`, `WHEAT`, `OAK_LOG`, `IRON_INGOT`. Use the standard Minecraft item ID format.
+  </Step>
+  <Step title="Stock the chest">
+    Once the sign is placed and configured, open the chest and fill it with the item you're selling. Your shop is now live. Customers who right-click the sign will be able to buy or sell the listed item automatically.
+  </Step>
+</Steps>
+
+<Note>
+  If the chest is empty, players will not be able to buy from your shop. Make sure to restock regularly, especially if you're selling high-demand items. You'll receive a coin payment automatically when a purchase is made.
+</Note>
+
+---
+
+## Player Market
+
+The **Player Market** at `/warp market` is a community-built shopping area with dedicated pre-built shop plots available to rent. It's the best place to set up a public-facing shop because of the built-in foot traffic from other players browsing the area.
+
+- **Access:** Type `/warp market` to teleport to the market.
+- **Renting a Stall:** Use `/plotshop buy` while standing in an available plot to rent it. Plots require a recurring coin payment to maintain.
+- **Shop Setup:** Once you've rented a plot, set up your chest shops inside it following the same steps above.
+- **Visibility:** Shops in the market are seen by every player who visits, giving you far more exposure than a shop hidden in the wilderness.
+
+---
+
+## Browsing Shops
+
+You don't have to wander the map to find good deals. DirtShop SMP includes a shop directory you can access directly in-game.
+
+- `/shops` — opens a list of active player shops on the server. You can browse by item, price, or player.
+- `/warp market` — physically visit the player market to browse stalls in person.
+
+Check both regularly — the `/shops` list may include shops outside the market area that have better prices on what you need.
+
+---
+
+<Tip>
+  **Competitive pricing and visibility are everything.** Before listing your items, use `/shops` and walk through `/warp market` to see what others are charging. Aim to price slightly better than the competition — even a few coins difference can make your shop the go-to option. Once your shop is open, **advertise it in the Discord #marketplace channel** with your warp or location, what you sell, and your prices. Players actively look there for the best deals, and a single post can drive a wave of new customers.
+</Tip>
