@@ -32,6 +32,13 @@
         "groups": [
           {
             "group": "關於泥土商店",
+            "icon": "contact-card",
+            "pages": [
+              ""
+            ]
+          },
+          {
+            "group": "關於泥土商店",
             "pages": [
               "",
               "getting-started/joining",
