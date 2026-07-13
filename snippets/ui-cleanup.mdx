@@ -1,0 +1,25 @@
+export default function UiCleanup() {
+  return (
+    <style>{`
+      #search-bar-entry,
+      #search-bar-entry-mobile,
+      #assistant-entry,
+      #assistant-entry-mobile,
+      #topbar-cta-button,
+      #content-side-layout,
+      .chat-assistant-floating-input {
+        display: none !important;
+      }
+
+      #content-container > div {
+        justify-content: center !important;
+      }
+
+      #content-area {
+        max-width: 48rem !important;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    `}</style>
+  );
+}

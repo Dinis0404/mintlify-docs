@@ -7,23 +7,15 @@
     "light": "#eec9bc",
     "dark": "#4fa1ab"
   },
-  "favicon": "/favicon.svg",
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/light.svg"
-  },
+  "favicon": "/logo/site-icon.png",
+  "logo": "/logo/site-icon.png",
   "navbar": {
     "links": [
       {
         "label": "Discord",
         "href": "https://discord.gg/2PPjzwrmKq"
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "開始遊玩",
-      "href": "/getting-started/how-to-join"
-    }
+    ]
   },
   "navigation": {
     "tabs": [
