@@ -71,7 +71,8 @@
             "group": "Beta 版本資料",
             "pages": [
               "beta/beta-preview"
-            ]
+            ],
+            "hidden": true
           }
         ]
       }
