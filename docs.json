@@ -8,7 +8,10 @@
     "dark": "#4fa1ab"
   },
   "favicon": "/logo/site-icon.png",
-  "logo": "/logo/site-icon.png",
+  "logo": {
+    "light": "/logo/dirtshop-logo-light.svg",
+    "dark": "/logo/dirtshop-logo-dark.svg"
+  },
   "navbar": {
     "links": [
       {
