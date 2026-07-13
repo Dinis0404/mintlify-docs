@@ -23,7 +23,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "玩家指南",
+        "tab": "泥土商店百科",
         "icon": "book",
         "pages": [
           "index",
@@ -36,13 +36,57 @@
           },
           {
             "group": "游戲玩法",
+            "pages": []
+          },
+          {
+            "group": "戰鬥",
             "pages": [
-              {
-                "group": "Untitled Group",
-                "pages": [
-                  "123123"
-                ]
-              }
+              "file-11",
+              "file-12"
+            ]
+          },
+          {
+            "group": "挖掘",
+            "pages": [
+              "file",
+              "file-1"
+            ]
+          },
+          {
+            "group": "釣魚",
+            "pages": [
+              "file-13"
+            ]
+          },
+          {
+            "group": "養成",
+            "pages": [
+              "file-7",
+              "file-8"
+            ]
+          },
+          {
+            "group": "社交",
+            "pages": [
+              "file-4",
+              "file-5"
+            ]
+          },
+          {
+            "group": "小游戲",
+            "pages": [
+              "untitled-page",
+              "file-6"
+            ]
+          },
+          {
+            "group": "特殊事件",
+            "pages": [
+              "file-2",
+              "file-3",
+              "file-9",
+              "file-10",
+              "boss"
             ]
           },
           {
