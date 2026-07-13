@@ -9,8 +9,8 @@
   },
   "favicon": "/logo/site-icon.png",
   "logo": {
-    "light": "/logo/dirtshop-logo-light.svg",
-    "dark": "/logo/dirtshop-logo-dark.svg"
+    "light": "/logo/dirtshop-wordmark-light.png",
+    "dark": "/logo/dirtshop-wordmark-dark.png"
   },
   "navbar": {
     "links": [
