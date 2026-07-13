@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "almond",
-  "name": "DirtShop",
+  "name": "泥土商店 DirtShop",
   "colors": {
     "primary": "#ef7025",
     "light": "#eec9bc",
@@ -10,7 +10,7 @@
   "favicon": "/favicon.svg",
   "logo": {
     "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "dark": "/logo/light.svg"
   },
   "navbar": {
     "links": [
@@ -21,91 +21,59 @@
     ],
     "primary": {
       "type": "button",
-      "label": "Join the Server",
-      "href": "https://dirtshop.gg"
+      "label": "開始遊玩",
+      "href": "/getting-started/how-to-join"
     }
   },
   "navigation": {
     "tabs": [
       {
-        "tab": "泥土商店百科",
+        "tab": "玩家指南",
+        "icon": "book",
         "groups": [
           {
-            "group": "123213213",
+            "group": "開始使用",
             "pages": [
-              "what"
+              "index",
+              "getting-started/what-is-dirtshop",
+              "getting-started/how-to-join"
             ]
           },
           {
-            "group": "關於泥土商店",
-            "pages": []
-          },
-          {
-            "group": "什麽是泥土商店",
+            "group": "三大經濟",
             "pages": [
-              "file"
+              "gameplay/dirt",
+              "gameplay/fishing",
+              "gameplay/mining"
             ]
           },
           {
-            "group": "關於泥土商店",
+            "group": "特殊玩法",
             "pages": [
-              ""
-            ]
-          }
-        ],
-        "pages": [
-          {
-            "group": "關於泥土商店",
-            "pages": [
-              "1-1",
-              "file-5"
-            ],
-            "icon": "id-card"
-          },
-          {
-            "group": "游戲内容",
-            "pages": []
-          },
-          {
-            "group": "選單",
-            "pages": []
-          },
-          {
-            "group": "挖掘",
-            "pages": [
-              "file",
-              "file-1"
+              "gameplay/treasure-hunt"
             ]
           },
           {
-            "group": "釣魚",
+            "group": "遊戲事件",
             "pages": [
-              "file-7"
+              "events/fish-rush",
+              "events/math-quiz",
+              "events/lottery"
             ]
           },
           {
-            "group": "狩獵",
+            "group": "地區介紹",
             "pages": [
-              "file-8"
+              "world/respawn-city"
             ]
           },
           {
-            "group": "小游戲",
+            "group": "Beta 版本資料",
             "pages": [
-              "file-2",
-              "file-3",
-              "file-4",
-              "file-9"
-            ]
-          },
-          {
-            "group": "養成",
-            "pages": [
-              "file-6"
+              "beta/beta-preview"
             ]
           }
-        ],
-        "icon": "book"
+        ]
       }
     ]
   }
