@@ -22,49 +22,30 @@
       {
         "tab": "玩家指南",
         "icon": "book",
-        "groups": [
+        "pages": [
+          "index",
           {
             "group": "開始使用",
             "pages": [
-              "index",
               "getting-started/what-is-dirtshop",
               "getting-started/how-to-join"
             ]
           },
           {
-            "group": "三大經濟",
+            "group": "游戲玩法",
             "pages": [
-              "gameplay/dirt",
-              "gameplay/fishing",
-              "gameplay/mining"
-            ]
-          },
-          {
-            "group": "特殊玩法",
-            "pages": [
-              "gameplay/treasure-hunt"
-            ]
-          },
-          {
-            "group": "遊戲事件",
-            "pages": [
-              "events/fish-rush",
-              "events/math-quiz",
-              "events/lottery"
+              {
+                "group": "Untitled Group",
+                "pages": []
+              }
             ]
           },
           {
             "group": "地區介紹",
+            "hidden": true,
             "pages": [
               "world/respawn-city"
             ]
-          },
-          {
-            "group": "Beta 版本資料",
-            "pages": [
-              "beta/beta-preview"
-            ],
-            "hidden": true
           }
         ]
       }
