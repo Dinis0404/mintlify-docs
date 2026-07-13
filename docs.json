@@ -28,7 +28,7 @@
         "pages": [
           "index",
           {
-            "group": "開始使用",
+            "group": "介紹及加入",
             "pages": [
               "getting-started/what-is-dirtshop",
               "getting-started/how-to-join"
