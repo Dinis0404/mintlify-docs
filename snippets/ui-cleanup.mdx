@@ -1,15 +1,24 @@
 export default function UiCleanup() {
-  return (
-    <style>{`
+  const css = `
       #search-bar-entry,
       #search-bar-entry-mobile,
       #assistant-entry,
       #assistant-entry-mobile,
       #topbar-cta-button,
-      #content-side-layout,
+      #table-of-contents-layout,
       .chat-assistant-floating-input,
       #pagination {
         display: none !important;
+      }
+
+      .nav-logo {
+        height: 2rem !important;
+      }
+
+      @media (min-width: 1024px) {
+        .nav-logo {
+          height: 2.25rem !important;
+        }
       }
 
       #content-container > div {
@@ -21,6 +30,7 @@ export default function UiCleanup() {
         margin-left: auto;
         margin-right: auto;
       }
-    `}</style>
-  );
+    `;
+
+  return <style dangerouslySetInnerHTML={{ __html: css }} />;
 }
